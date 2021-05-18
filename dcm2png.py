@@ -4,7 +4,7 @@
 import sys, os, datetime, pydicom
 
 dicomBase = '/path/to/dicom-files/'
-jpgBase = '/path/to/jpeg-exports/'
+pngBase = '/path/to/png-exports/'
 cmdPath = '/path/to/dcm4che-5.23.2/bin/dcm2jpg -F PNG -q 1.0'
 
 if __name__ == '__main__':
